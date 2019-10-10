@@ -1,0 +1,82 @@
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+.inner {
+    width: 100%;
+}
+
+.imgContainer {
+    width: 100%;
+    margin: 5px;
+}
+
+.tablette, .desktop, .desktopG {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .inner {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .imgContainer {
+        width: 370px;
+        display: inline-block;
+    }
+
+    .telephone {
+        display: none;
+    }
+
+    .tablette {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    .inner {
+        width: 1300px;
+    }
+
+    .imgContainer {
+        width: 640px;
+    }
+
+    .tablette {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .inner {
+        width: 1600px;
+    }
+
+    .imgContainer {
+        width: 370px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .desktopG {
+        display: block;
+    }
+}
