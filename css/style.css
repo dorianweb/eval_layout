@@ -1,82 +1,72 @@
 
 body {
-    margin: 0;
+    margin:0;
 }
 
-img {
-    width: 100%;
+img{
+    width:100%;
 }
-
-.txtcenter {
+.txtcenter{
     text-align: center;
 }
-
 .inner {
-    width: 100%;
+    width:100%;
 }
 
-.imgContainer {
-    width: 100%;
+.imgContainer{
+    width:100%;
     margin: 5px;
 }
 
-.tablette, .desktop, .desktopG {
+.tablette,.desktop,.desktopG{
     display: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px){
     .inner {
-        width: 768px;
-        margin: 0 auto;
+        width:95%;
+        margin:0 auto;
     }
-
-    .imgContainer {
-        width: 370px;
+    .imgContainer{
+        width:48%;
         display: inline-block;
     }
-
     .telephone {
         display: none;
     }
-
-    .tablette {
+    .tablette{
         display: block;
     }
 }
 
-@media screen and (min-width: 1370px) {
+@media screen and (min-width:1370px){
     .inner {
-        width: 1300px;
+        width:1300px;
     }
-
-    .imgContainer {
-        width: 640px;
+    .imgContainer{
+        width:635px;
     }
-
-    .tablette {
+    .tablette{
         display: none;
     }
-
-    .desktop {
+    .desktop{
         display: block;
     }
 
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width:1600px){
     .inner {
-        width: 1600px;
+        width:1600px;
+    }
+    .imgContainer{
+        width:365px;
     }
 
-    .imgContainer {
-        width: 370px;
-    }
-
-    .desktop {
+    .desktop{
         display: none;
     }
-
-    .desktopG {
+    .desktopG{
         display: block;
     }
 }
